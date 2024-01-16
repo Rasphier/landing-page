@@ -1,0 +1,60 @@
+.body {
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100vh;
+}
+
+
+.header {
+    display:flex;
+    background-color: #1F2937;
+    flex: 1;
+    padding: 1px;
+    justify-content: space-between
+}
+
+.left-links {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.information {
+    display: flex;
+    flex: 1;
+}
+
+.quote {
+    display: flex;
+    flex: 1;
+    background-color: rgb(231, 220, 220)
+    
+}
+
+.calltoaction {
+    display:flex;
+    flex: 1;
+}
+
+.footer {
+    display:flex;
+    background-color: #1F2937;
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 24px;
+    padding: 0;
+    gap: 24px;
+    color: rgb(231, 220, 220)
+  }
+
